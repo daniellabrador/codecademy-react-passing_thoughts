@@ -9,12 +9,18 @@ export function AddThoughtForm(props) {
   }
 
   const handleSubmit = event => {
+    if (!text){
+      event.preventDefault();
+      return;
+    }
+    
     event.preventDefault();
     props.addThought({
       id: generateId(),
       text: text,
       expiresAt: getNewExpirationTime()
     })
+    setText("");
   }
 
   return (
@@ -26,7 +32,7 @@ export function AddThoughtForm(props) {
         value={text}
         onChange={handleTextChange}
       />
-      <input type="submit" />
+      <input type="submit"/>
     </form>
   );
 }
