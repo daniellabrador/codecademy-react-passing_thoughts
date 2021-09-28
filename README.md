@@ -1,15 +1,17 @@
-# **~React**
+# **Passing Thoughts**
 
-~React does something. This app is a [Codecademy](https://www.codecademy.com/learn/react-101) project intended to enhance my skills on the use of JavaScript skills.
+Passing Thoughts gives a space for the user's passing thoughts, which will disappear after 15 seconds. This app is a [Codecademy](https://www.codecademy.com/learn/react-101) project intended to enhance my skills on the use of JavaScript skills.
 
 ## Table of Contents
 
-- [Project Prompt](#project-prompt)
+- [Project Prompt](#codecademy-project-prompt)
 - [Technologies](#technologies)
 - [Setup](#setup)
 - [Sources](#sources)
 
-## Project Prompt
+## Codecademy Project Prompt
+
+What if you could post something and know it wouldn’t live forever? In this project, we’ll build a place for our passing thoughts. Once you add a short thought, it’ll disappear after just 15 seconds.
 
 ## Technologies
 
@@ -18,7 +20,7 @@
 
 ## Setup
 
-To view the final output, click [here](https://daniellabrador.me/codecademy-react-)
+To view the final output, click [here](https://daniellabrador.codecademy-passing_thoughts.netlify.app)
 
 ## Sources
 

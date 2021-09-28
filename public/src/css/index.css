@@ -1126,19 +1126,30 @@ main section p {
 main section a {
   position: relative;
   top: -0.015em;
-  padding: 0.125em 0em;
-  color: #333;
+  padding: 0.05em 0em;
+  color: #666;
+}
+main section a:hover > i {
+  transition: all 0.25s;
+  color: white;
+  text-decoration: none;
+}
+main section a i {
+  margin-left: 0.25em;
+  font-size: 0.75em;
+  font-weight: 100;
+  color: #666;
 }
 main section a:hover {
   transition: all 0.25s;
-  padding: 0.25em 0em;
+  padding: 0.05em 0em;
   color: white;
   text-decoration: none;
 }
 main section a:not(:hover) {
   transition: all 0.25s;
 }
-main section a::after {
+main section a::before {
   content: "";
   position: absolute;
   bottom: -2%;
@@ -1146,12 +1157,12 @@ main section a::after {
   width: 104.5%;
   height: 100%;
 }
-main section a:hover::after {
+main section a:hover::before {
   transition: background-color 0.25s;
   background-color: #2fb3ff;
   z-index: -1;
 }
-main section a:not(:hover)::after {
+main section a:not(:hover)::before {
   transition: background-color 0.25s;
 }
 main section h1 {

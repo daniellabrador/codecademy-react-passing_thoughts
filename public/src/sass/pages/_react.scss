@@ -8,12 +8,25 @@ main section {  //--------------------------------------------------------------
   a {
     position: relative;
     top: -.015em;
-    padding: .125em 0em;
-    color: #333;
+    padding: .05em 0em;
+    color: #666;
+
+    &:hover>i {
+      transition: all .25s;
+      color: white;
+      text-decoration: none;
+    }
+
+    i {
+      margin-left: .25em;
+      font-size: .75em;
+	    font-weight: 100;
+      color: #666;
+    }
   
     &:hover {
       transition: all .25s;
-      padding: .25em 0em;
+      padding: .05em 0em;
       color: white;
       text-decoration: none;
     }
@@ -22,7 +35,7 @@ main section {  //--------------------------------------------------------------
       transition: all .25s;
     }
   
-    &::after {
+    &::before {
       content: '';
       position: absolute;
       bottom: -2%;
@@ -31,13 +44,13 @@ main section {  //--------------------------------------------------------------
       height: 100%;
     }
   
-    &:hover::after {
+    &:hover::before {
       transition: background-color .25s;
       background-color: #2fb3ff;
       z-index: -1;
     }
   
-    &:not(:hover)::after {
+    &:not(:hover)::before {
       transition: background-color .25s;
     }
   }
