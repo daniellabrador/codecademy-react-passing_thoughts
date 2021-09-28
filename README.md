@@ -1,6 +1,6 @@
 # **Passing Thoughts**
 
-Passing Thoughts gives a space for the user's passing thoughts, which will disappear after 15 seconds. This app is a [Codecademy](https://www.codecademy.com/learn/react-101) project intended to enhance my skills on the use of JavaScript skills.
+Passing Thoughts gives a space for the user's passing thoughts, which will disappear after 15 seconds. This app is a [Codecademy](https://www.codecademy.com/learn/react-101) project intended to enhance my skills on the use of react hooks.
 
 ## Table of Contents
 
