@@ -20,7 +20,7 @@ What if you could post something and know it wouldn’t live forever? In this pr
 
 ## Setup
 
-To view the final output, click [here](https://daniellabrador.codecademy-passing-thoughts.netlify.app)
+To view the final output, click [here](https://daniellabrador-codecademy-passing-thoughts.netlify.app)
 
 ## Sources
 
