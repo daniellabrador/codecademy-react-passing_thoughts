@@ -22,6 +22,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  z-index: 1 !important;
+}
+
+.App-header p, .App-header code {
+  color: white;
 }
 
 .App-link {
