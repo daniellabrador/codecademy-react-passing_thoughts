@@ -1,6 +1,6 @@
-# **React **
+# **~React**
 
-React app does something. This app is a [Codecademy](https://www.codecademy.com/learn/react-101) project intended to enhance my skills on the use of JavaScript skills.
+~React does something. This app is a [Codecademy](https://www.codecademy.com/learn/react-101) project intended to enhance my skills on the use of JavaScript skills.
 
 ## Table of Contents
 

@@ -1204,7 +1204,7 @@ main section #app-window #app-container {
 }
 main section #app-window #app-container #app {
   display: block;
-  min-height: calc(100vh - 22.675em);
+  min-height: calc(100vh - 22.175em);
   border-bottom-left-radius: 0.625em;
   border-bottom-right-radius: 0.625em;
   overflow: hidden;
